@@ -1,0 +1,11 @@
+body {
+    background-color: #EEE;
+    font-size: 24px
+}
+
+.rec {
+    border: 1px #AAA;
+    border-radius: 10px;
+    background: #CCC;
+    padding: 5px
+}
