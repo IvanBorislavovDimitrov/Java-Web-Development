@@ -1,6 +1,7 @@
 package app.servlets;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -26,11 +27,19 @@ public class CatCreateServlet extends HttpServlet {
 		resp.setContentLength(fileContent.length());
 		resp.getWriter().println(fileContent);
 	}
+	
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		super.service(req, resp);
+	}
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		List<Cat> cats = (List<Cat>) getServletContext().getAttribute("cats");
 		if (cats == null) {
+			cats = new ArrayList<>();
+			getServletContext().setAttribute("cats", cats);
 			return;
 		}
 		String name = req.getParameter("name");

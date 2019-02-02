@@ -1,0 +1,51 @@
+.button {
+    background-color: rgb(23, 162, 184);
+    border-radius: 5px;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.buttonButton {
+    background-color: rgb(23, 162, 184);
+    border-radius: 5px;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+    border: rgb(23, 162, 184);
+}
+
+div.rectangle {
+    padding: 40px;
+    width: 87%;
+    min-height: 35%;
+    background-color: rgb(233, 236, 239);
+}
+
+body {
+    font-family: "Calibri", sans-serif;
+}
+
+label {
+    display: block;
+    padding: 10px;
+}
+
+select {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+select {
+    width: 160px;
+}
+
+.parent {
+    text-align: center;
+}
+.parent > ul {
+    display: inline-block;
+}

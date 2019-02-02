@@ -32,6 +32,5 @@ public class HomeServlet extends HttpServlet {
 		resp.setContentType("text/html");
 		resp.setContentLength(fileContent.length());
 		resp.getWriter().println(fileContent);
-		
 	}
 }

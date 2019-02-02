@@ -1,0 +1,9 @@
+mysql connector
+hibernate
+javax persistance
+hibernate.jar -> to lib
+-> SPA basics
+ajax 
+url: /users
+method: GET
+$('body').append

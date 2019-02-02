@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create a product</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+</head>
+<body>
+<center>
+    <div class="rectangle">
+        <h1>Create a product</h1>
+        <hr/>
+        <form method="post" action="/products/create">
+            <div>
+                <label>Name: </label>
+                <input name="name" type="text"/>
+            </div>
+            <div>
+                <label>Description: </label>
+                <textarea rows="5" name="description"></textarea>
+            </div>
+            <div>
+                <label>Type: </label>
+                <select name="type">
+                    <option selected="selected">Choose type...</option>
+                    <option>Food</option>
+                    <option>Domestic</option>
+                    <option>Health</option>
+                    <option>Cosmetic</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <input style="margin: 20px" class="buttonButton" type="submit" value="Create Product"/>
+        </form>
+        <hr/>
+        <a href="/">Back to Home page.</a>
+    </div>
+</center>
+</body>
+</html>
