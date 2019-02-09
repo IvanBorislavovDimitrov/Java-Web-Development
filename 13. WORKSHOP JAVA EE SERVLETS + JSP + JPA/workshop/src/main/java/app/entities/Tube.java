@@ -1,5 +1,6 @@
 package app.entities;
 
+import app.enums.TubeStatus;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -15,33 +16,34 @@ public class Tube {
     @Column(name = "uuid", unique = true)
     private String uuid;
 
-    @Column(name = "title", nullable = false, unique = true)
+    @Column(name = "title", nullable = false)
     @NotNull
     private String title;
 
     @Column(name = "description")
     private String description;
 
-    @Column(name = "youtube_id", unique = true, nullable = false)
+    @Column(name = "youtube_id", nullable = false)
     @NotNull
     private String youtubeId;
+
+    @Column(name = "author", nullable = false)
+    @NotNull
+    private String author;
 
     @Column(name = "views", nullable = false)
     private long views;
 
-    @ManyToOne(targetEntity = User.class, fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    @JoinColumn(name = "uploader_id")
+    @Column(name = "tube_status", nullable = false)
+    @Enumerated(EnumType.STRING)
+    @NotNull
+    private TubeStatus tubeStatus;
+
+    @ManyToOne
+    @JoinColumn(name = "uploader_id", referencedColumnName = "uuid")
     private User uploader;
 
     public Tube() {
-    }
-
-    public Tube(@NotNull String title, String description, @NotNull String youtubeId, long views, User uploader) {
-        this.title = title;
-        this.description = description;
-        this.youtubeId = youtubeId;
-        this.views = views;
-        this.uploader = uploader;
     }
 
     public String getUuid() {
@@ -90,5 +92,21 @@ public class Tube {
 
     public void setUploader(User uploader) {
         this.uploader = uploader;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public TubeStatus getTubeStatus() {
+        return tubeStatus;
+    }
+
+    public void setTubeStatus(TubeStatus tubeStatus) {
+        this.tubeStatus = tubeStatus;
     }
 }

@@ -1,0 +1,33 @@
+.bg-color-dark {
+    background-color: #483D8B;
+    color: #A9A9A9;
+}
+
+.footer {
+    background-color: #483D8B;
+    color: #A9A9A9;
+}
+
+.nav-item > a:hover, .navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+iframe {
+    overflow: hidden;
+}
+
+.blue {
+    color: blue;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    background: #CCC
+}

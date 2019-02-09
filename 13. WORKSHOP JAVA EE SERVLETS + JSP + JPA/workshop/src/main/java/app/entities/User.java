@@ -1,5 +1,6 @@
 package app.entities;
 
+import app.enums.UserRole;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -22,21 +23,23 @@ public class User {
     @NotNull
     private String username;
 
+    @Column(name = "password", nullable = false)
+    @NotNull
+    private String password;
+
     @Column(name = "email", unique = true, nullable = false)
     @Pattern(regexp = "^[A-Za-z][A-Za-z.0-9]+@([A-Za-z]+(\\.)){1,}[A-Za-z0-9]+$")
     private String email;
 
-    @OneToMany(mappedBy = "uploader")
+    @Enumerated(EnumType.STRING)
+    @Column(name = "user_role", nullable = false)
+    private UserRole userRole;
+
+    @OneToMany(mappedBy = "uploader", targetEntity = Tube.class, fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<Tube> tubes;
 
     public User() {
         tubes = new ArrayList<>();
-    }
-
-    public User(@NotNull String username, @Pattern(regexp = "^[A-Za-z][A-Za-z.0-9]+@([A-Za-z]+(\\.)){1,}[A-Za-z0-9]+$") String email, List<Tube> tubes) {
-        this.username = username;
-        this.email = email;
-        this.tubes = tubes;
     }
 
     public String getUuid() {
@@ -69,5 +72,21 @@ public class User {
 
     public void setTubes(List<Tube> tubes) {
         this.tubes = tubes;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public UserRole getUserRole() {
+        return userRole;
+    }
+
+    public void setUserRole(UserRole userRole) {
+        this.userRole = userRole;
     }
 }
