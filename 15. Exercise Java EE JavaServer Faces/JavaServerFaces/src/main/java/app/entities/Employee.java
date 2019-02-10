@@ -1,6 +1,11 @@
 package app.entities;
 
+import javax.inject.Named;
+
+@Named
 public class Employee {
+
+    private int id;
 
     private String firstName;
 
@@ -53,5 +58,13 @@ public class Employee {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
