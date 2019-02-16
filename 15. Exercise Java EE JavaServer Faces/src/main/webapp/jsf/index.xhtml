@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+        xmlns:h="http://xmlns.jcp.org/jsf/html"
+        xmlns:f="http://xmlns.jcp.org/jsf/core"
+        xmlns:c="http://java.sun.com/jsp/jstl/core">
+<h:head>
+    <title>
+        JSF Demo
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          type="text/css"/>
+</h:head>
+
+<h:body>
+    <hr style="height: 2px;" class="bg-dark"/>
+    <h1 class="text-center">Employee Register</h1>
+    <hr style="height: 2px;" class="bg-dark"/>
+    <div class="container mt-3">
+        <h:dataTable value="#{employeeRepository.employees}" var="emp"
+                     styleClass="table"
+                     headerClass="employeeTableHeader"
+                     rowClasses="employeeTableOddRow,employeeTableEvenRow">
+            <h:column>
+                <f:facet name="header">#</f:facet>
+                #{emp.id}
+            </h:column>
+            <h:column>
+                <f:facet name="header">First name</f:facet>
+                #{emp.firstName}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Last name</f:facet>
+                #{emp.lastName}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Position</f:facet>
+                #{emp.position}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Salary</f:facet>
+                #{emp.salary}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Age</f:facet>
+                #{emp.age}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Remove</f:facet>
+                <h:form>
+                    <h:commandButton styleClass="btn btn-danger" value="Remove"
+                                     action="#{employeeRepository.remove(emp.id)}"/>
+                </h:form>
+            </h:column>
+        </h:dataTable>
+
+        <h:form>
+            <div class="names-holder d-flex justify-content-between">
+                <div class="form-group w-25">
+                    <label>First Name</label>
+                    <h:inputText styleClass="form-control" value="#{employee.firstName}"/>
+                </div>
+                <div class="form-group w-25">
+                    <label>Last Name</label>
+                    <h:inputText styleClass="form-control" value="#{employee.lastName}"/>
+                </div>
+                <div class="form-group w-25">
+                    <label>Position</label>
+                    <h:inputText styleClass="form-control" value="#{employee.position}"/>
+                </div>
+            </div>
+            <div class="numbers-holders d-flex justify-content-between">
+                <div class="form-group w-25">
+                    <label>Salary</label>
+                    <h:inputText styleClass="form-control" value="#{employee.salary}"/>
+                </div>
+                <div class="form-submit-holder d-flex justify-content-center w-25">
+                    <h:commandButton styleClass="btn btn-success mt-4 mb-3 mx-auto w-100" value="Register"
+                                     action="#{employeeBean.registerUser(employee)}"/>
+                </div>
+                <div class="form-group w-25">
+                    <label>Age</label>
+                    <h:inputText styleClass="form-control" value="#{employee.age}"/>
+                </div>
+            </div>
+        </h:form>
+        <hr style="height: 2px;" class="bg-dark"/>
+        <div class="d-flex justify-content-between">
+            <h:outputText styleClass="w-50" value="Total Money Needed: #{employeeRepository.totalMoneyNeeded()}"/>
+            <h:outputText styleClass="w-50 text-right" value="Average Salary: #{employeeRepository.averageSalary()}"/>
+        </div>
+        <hr style="height: 2px;" class="bg-dark"/>
+    </div>
+</h:body>
+
+
+</html>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+>
+
+<ui:composition template="templates/base-layout.xhtml">
+    <ui:define name="content">
+        <div class="jumbotron justify-content-center jumbotron-background">
+            <div class="row">
+                <div class="col col-md-12 d-flex justify-content-center">
+                    <h1>Create Cat!</h1>
+                </div>
+            </div>
+            <hr class="hr-background"/>
+            <h:form>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <div class="form-group">
+                            <h:outputLabel>Name</h:outputLabel>
+                            <h:inputText maxlength="10" name="j_id_p_catNameInput"
+                                         value="#{catBean.catInputViewModel.name}"
+                                         styleClass="form-control">
+                                <f:validateLength minimum="2" maximum="10"/>
+                            </h:inputText>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <div class="form-group">
+                            <h:outputLabel for="j_id_p_catBreedInput">Breed</h:outputLabel>
+                            <h:inputText id="j_id_p_catBreedInput" maxlength="20" name="j_id_p_catBreedInput"
+                                         value="#{catBean.catInputViewModel.breed}"
+                                         styleClass="form-control">
+                                <f:validateLength minimum="5" maximum="20"/>
+                            </h:inputText>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <div class="form-group">
+                            <h:outputLabel for="j_id_p_catColorInput">Color</h:outputLabel>
+                            <h:inputText id="j_id_p_catColorInput" name="j_id_p_catColorInput"
+                                         value="#{catBean.catInputViewModel.color}"
+                                         styleClass="form-control"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <div class="form-group">
+                            <h:outputLabel for="j_id_p_catAgeInput">Age</h:outputLabel>
+                            <p:inputNumber id="j_id_p_catAgeInput" maxValue="31" minValue="1" name="j_id_p_catAgeInput"
+                                           value="#{catBean.catInputViewModel.age}"
+                                           styleClass="form-control">
+                                <f:validateLongRange minimum="1" maximum="31"/>
+                            </p:inputNumber>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <div class="form-group">
+                            <h:outputLabel for="j_id_p_catPriceInput">Price</h:outputLabel>
+                            <p:inputNumber decimalPlaces="2" minValue="0.01" symbol=" $" symbolPosition="s"
+                                           id="j_id_p_catPriceInput" name="j_id_p_catPriceInput"
+                                           value="#{catBean.catInputViewModel.price}"
+                                           styleClass="form-control">
+                                <f:validateDoubleRange minimum="0.01"/>
+                            </p:inputNumber>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hr-background"/>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <h:outputLabel styleClass="mr-4">Gender</h:outputLabel>
+                        <p:selectOneRadio id="gender" value="#{catBean.catInputViewModel.gender}">
+                            <f:selectItem id="j_id_p_catGenderRadio_0" name="j_id_p_catGenderRadio" itemValue="male"
+                                          itemLabel="Male"/>
+                            <f:selectItem id="j_id_p_catGenderRadio_1" name="j_id_p_catGenderRadio" itemValue="female"
+                                          itemLabel="Female"/>
+                        </p:selectOneRadio>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <div class="form-check">
+                            <p:selectBooleanCheckbox id="j_id_p_catPassportCheckbox" name="j_id_p_catPassportCheckbox"
+                                                     value="#{catBean.catInputViewModel.hasPassport}"
+                                                     styleClass="form-check-input"/>
+                            <h:outputLabel styleClass="form-check-label mr-4"
+                                           for="j_id_p_catPassportCheckbox" value="Has passport"/>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <hr class="hr-background"/>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <div class="form-group">
+                            <label for="j_id_p_catAddedOnInput">Added On</label>
+                            <span id="j_id_p_catAddedOnInput" class="ui-calendar form-control">
+                                <p:calendar id="popup" value="#{catBean.catInputViewModel.addedOn}"
+                                            pattern="dd-MM-yyyy"/>
+                            </span>
+                            <script id="j_id_p_catAddedOnInput_s" type="text/javascript">$(function () {
+                                PrimeFaces.cw("Calendar", "widget_j_id_p_catAddedOnInput", {
+                                    id: "j_id_p_catAddedOnInput",
+                                    popup: true,
+                                    locale: "en_US",
+                                    dateFormat: "m\/d\/y"
+                                });
+                            });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hr-background"/>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <h:commandButton action="#{catBean.registerCat()}" styleClass="btn btn-success"
+                                         value="Register"/>
+                    </div>
+                </div>
+                <h:inputHidden name="j_id_p_SUBMIT" value="1"/>
+                <h:inputHidden name="javax.faces.ViewState" id="j_id__v_0_javax_faces_ViewState_1"
+                               value="QUZFNzkwODE2RkY4RURCOTAwMDAwMDAx"/>
+            </h:form>
+        </div>
+    </ui:define>
+</ui:composition>
+
+</html>
