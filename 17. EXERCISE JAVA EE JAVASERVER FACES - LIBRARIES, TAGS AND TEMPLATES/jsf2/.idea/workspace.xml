@@ -8,166 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="58cc8864-7160-4415-9170-9e3928ee4124" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/constants/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/entities/Tube.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/entities/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/filter/LoginFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/filter/RegisterFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/filter/UploadVideoFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/mappers/Mapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/model/UserLoginBindingEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/model/UserRegisterBindingEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/repositories/api/GenericRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/repositories/api/TubeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/repositories/api/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/repositories/impl/TubeRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/repositories/impl/UserRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/services/api/TubeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/services/api/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/services/impl/TubeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/services/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/servlets/HomeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/servlets/IndexServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/servlets/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/servlets/RegisterServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/servlets/UploadTubeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13. WORKSHOP JAVA EE SERVLETS + JSP + JPA/workshop/target/workshop-1.0-SNAPSHOT/WEB-INF/classes/app/util/PasswordEncoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/.idea/webContexts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/src.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/src/main/java/app/beans/EmployeeBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/src/main/java/app/entities/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/src/main/java/app/repository/EmployeeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/src/main/webapp/jsf/index.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/classes/META-INF/JavaServerFaces.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/classes/app/beans/EmployeeBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/classes/app/entities/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/classes/app/repository/EmployeeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.4.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-2.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/modelmapper-0.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.47.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/JavaServerFaces-1.0-SNAPSHOT/jsf/index.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/classes/META-INF/JavaServerFaces.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/classes/app/beans/EmployeeBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/classes/app/entities/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/JavaServerFaces/target/classes/app/repository/EmployeeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/jsf1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/src/main/java/app/Impl1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/src/main/java/app/Impl2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/src/main/java/app/Interf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/src/main/java/app/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/src/main/java/app/Sevlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/classes/app/Impl1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/classes/app/Impl2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/classes/app/Interf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/classes/app/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/classes/app/Sevlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/classes/app/Impl1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/classes/app/Impl2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/classes/app/Interf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/classes/app/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/classes/app/Sevlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.4.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-2.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/modelmapper-0.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.47.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15. Exercise Java EE JavaServer Faces/jsf1/target/jsf1-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09. Java-Web-Development-Basics-Java-EE-JSF-Libraries-Tags-and-Templates-Resources/all-cats.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09. Java-Web-Development-Basics-Java-EE-JSF-Libraries-Tags-and-Templates-Resources/create-cat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09. Java-Web-Development-Basics-Java-EE-JSF-Libraries-Tags-and-Templates-Resources/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09. Java-Web-Development-Basics-Java-EE-JSF-Libraries-Tags-and-Templates-Resources/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09. Java-Web-Development-Basics-Java-EE-JSF-Libraries-Tags-and-Templates-Resources/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09. Java-Web-Development-Basics-Java-EE-JSF-Libraries-Tags-and-Templates-Resources/js/bootstrap.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsf2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/beans/CatBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/beans/CatBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/CatInputViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/CatInputViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repostitories/CatRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repostitories/CatRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsf/all-cats.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsf/all-cats.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsf/templates/base-layout.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsf/templates/base-layout.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/jsf/templates/header.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsf/templates/header.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/animals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/jsf2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/beans/CatBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/beans/CatBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entities/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/entities/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/CatInputViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/CatInputViewModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/repostitories/CatRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/repostitories/CatRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/WEB-INF/classes/app/beans/CatBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/WEB-INF/classes/app/beans/CatBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/WEB-INF/classes/app/entities/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/WEB-INF/classes/app/entities/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/WEB-INF/classes/app/model/CatInputViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/WEB-INF/classes/app/model/CatInputViewModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/WEB-INF/classes/app/repostitories/CatRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/WEB-INF/classes/app/repostitories/CatRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/jsf/cat-create.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/jsf/cat-create.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/jsf/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/jsf/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/jsf/templates/header.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/jsf/templates/header.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/resources/images/animals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/resources/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsf2-1.0-SNAPSHOT/resources/styles/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -189,45 +33,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/repostitories/CatRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/model/CatServiceModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/services/CatServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="630">
               <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -270,79 +78,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/templates/header.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="61" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/templates/footer.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/templates/base-layout.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/beans/CatBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="666">
               <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1814#1815#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/stream/Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="750" column="10" selection-start-line="750" selection-start-column="10" selection-end-line="750" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/model/CatInputViewModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1204#1205#0" expanded="true" />
-                <element signature="e#1259#1260#0" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
-                <element signature="e#1337#1338#0" expanded="true" />
-                <element signature="e#1367#1368#0" expanded="true" />
-                <element signature="e#1411#1412#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
-                <element signature="e#1578#1579#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/all-cats.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -350,8 +120,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="432">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/styles/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="22" selection-end-line="9116" selection-end-column="45" />
+              <folding>
+                <element signature="e#73878#74078#2" expanded="true" />
+                <element signature="e#74310#74459#2" expanded="true" />
+                <element signature="e#75025#75171#2" expanded="true" />
+                <element signature="e#75539#75705#1" expanded="true" />
+                <element signature="e#90598#90841#2" expanded="true" />
+                <element signature="e#91858#92107#2" expanded="true" />
+                <element signature="e#125645#125835#2" expanded="true" />
+                <element signature="e#125891#126081#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/all-cats.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -395,8 +202,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsf/templates/footere.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsf/templates/footer.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/styles/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsf/templates/base-layout.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/app/model/InputViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/model/InputCatViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/repostitories/GenericRepository.java" />
@@ -408,7 +213,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/styles/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsf/templates/header.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/app/repostitories/CatRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/configuration/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/services/CatService.java" />
@@ -416,9 +220,12 @@
         <option value="$PROJECT_DIR$/src/main/java/app/entities/Cat.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/util/ValidationUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/services/CatServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsf/all-cats.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/app/model/CatInputViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/beans/CatBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsf/templates/base-layout.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsf/templates/header.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/styles/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsf/all-cats.xhtml" />
       </list>
     </option>
   </component>
@@ -436,7 +243,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -445,9 +252,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -612,14 +422,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550335190177" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550694589605" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -738,17 +546,19 @@
       <option name="presentableId" value="Default" />
       <updated>1550252294625</updated>
       <workItem from="1550252298096" duration="18006000" />
-      <workItem from="1550306979960" duration="12989000" />
+      <workItem from="1550306979960" duration="23861000" />
+      <workItem from="1550694649059" duration="674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30995000" />
+    <option name="totallyTimeSpent" value="42541000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2181208" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15302013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -772,7 +582,6 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="BPMNPalette" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -785,6 +594,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="CDI" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="BPMNPalette" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -807,9 +617,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/animals.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/animals.png" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -845,22 +653,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/styles/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -936,27 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/templates/footer.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/templates/base-layout.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/templates/header.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/util/ValidationUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -989,50 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-            <element signature="e#1507#1508#0" expanded="true" />
-            <element signature="e#1539#1540#0" expanded="true" />
-            <element signature="e#1567#1568#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#1643#1644#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1696#1697#0" expanded="true" />
-            <element signature="e#1731#1732#0" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#1867#1868#0" expanded="true" />
-            <element signature="e#1903#1904#0" expanded="true" />
-            <element signature="e#1939#1940#0" expanded="true" />
-            <element signature="e#1967#1968#0" expanded="true" />
-            <element signature="e#2013#2014#0" expanded="true" />
-            <element signature="e#2047#2048#0" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
-            <element signature="e#2109#2110#0" expanded="true" />
-            <element signature="e#2153#2154#0" expanded="true" />
-            <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#2229#2230#0" expanded="true" />
-            <element signature="e#2263#2264#0" expanded="true" />
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2364#2365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/services/CatServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
@@ -1040,27 +769,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2304">
-          <caret line="128" column="33" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/all-cats.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1115,14 +823,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2304">
+          <caret line="128" column="33" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1696#1697#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1823#1824#0" expanded="true" />
+            <element signature="e#1867#1868#0" expanded="true" />
+            <element signature="e#1903#1904#0" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#1967#1968#0" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2079#2080#0" expanded="true" />
+            <element signature="e#2109#2110#0" expanded="true" />
+            <element signature="e#2153#2154#0" expanded="true" />
+            <element signature="e#2191#2192#0" expanded="true" />
+            <element signature="e#2229#2230#0" expanded="true" />
+            <element signature="e#2263#2264#0" expanded="true" />
+            <element signature="e#2318#2319#0" expanded="true" />
+            <element signature="e#2364#2365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/templates/header.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/templates/footer.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/templates/base-layout.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/beans/CatBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="666">
           <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1814#1815#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/styles/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="22" selection-end-line="9116" selection-end-column="45" />
+          <folding>
+            <element signature="e#73878#74078#2" expanded="true" />
+            <element signature="e#74310#74459#2" expanded="true" />
+            <element signature="e#75025#75171#2" expanded="true" />
+            <element signature="e#75539#75705#1" expanded="true" />
+            <element signature="e#90598#90841#2" expanded="true" />
+            <element signature="e#91858#92107#2" expanded="true" />
+            <element signature="e#125645#125835#2" expanded="true" />
+            <element signature="e#125891#126081#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/all-cats.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
         </state>
       </provider>
     </entry>
