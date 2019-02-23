@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sboj.gb</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-sboj">
+            <a class="navbar-brand text-info h4" href="/">Sboj.gb</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav row w-25">
+                    <li class="nav-item col-md-4">
+                        <a href="/" class="nav-link text-info active h5">Home</a>
+                    </li>
+                    <li class="nav-item col-md-4">
+                        <a href="/jobs/add" class="nav-link text-info active h5">Add Job</a>
+                    </li>
+                    <li class="nav-item col-md-4">
+                        <a href="/logout" class="nav-link text-info active h5">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <hr class="my-3"/>
+        <h1 class="text-center">Delete Job</h1>
+        <hr class="hr-3"/>
+        <form class="mx-auto w-15" method="post" action="/jobs/delete?id=1">
+            <div class="form-group">
+                <div class="label-holder d-flex justify-content-center">
+                    <label for="sector" class="h3 mb-2">Sector</label>
+                </div>
+                <input type="text" class="form-control" id="sector" name="sector" value="Medicine" disabled>
+            </div>
+            <div class="form-group">
+                <div class="label-holder d-flex justify-content-center">
+                    <label for="profession" class="h3 mb-2">Profession</label>
+                </div>
+                <input type="text" class="form-control" id="profession" name="profession" value="Local Nurse" disabled>
+            </div>
+            <div class="form-group">
+                <div class="label-holder d-flex justify-content-center">
+                    <label for="salary" class="h3 mb-2">Salary</label>
+                </div>
+                <input type="number" class="form-control" id="salary" name="salary" value="4500.00" disabled>
+            </div>
+            <div class="form-group">
+                <div class="label-holder d-flex justify-content-center">
+                    <label for="description" class="h3 mb-2">Description</label>
+                </div>
+                <textarea rows="4" class="form-control" id="description" name="description" disabled>A local nurse...</textarea>
+            </div>
+            <div class="button-holder d-flex justify-content-center">
+                <button type="submit" class="btn btn-danger text-white">Delete Job</button>
+            </div>
+        </form>
+        <hr class="my-3">
+    </main>
+    <footer class="footer py-3">
+        <div class="container-fluid">
+            <div class="text-muted container-fluid text-center">&copy; CopyRight Sanity Web Design Studios 2019. All
+                rights reserved.
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

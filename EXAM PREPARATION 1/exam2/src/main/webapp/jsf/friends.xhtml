@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+<ui:composition template="templates/base-layout.xhtml">
+    <ui:define name="content">
+        <hr class="my-2"/>
+        <div class="text-center mt-3">
+            <h3 class="text-info">Casebook</h3>
+            <h4 class="text-info">Connecting People</h4>
+        </div>
+        <hr class="my-4"/>
+        <div class="container">
+            <div class="row py-4 d-flex flex-column">
+                <h:form>
+                    <c:forEach var="friend" items="${allFriendsBean.friends()}">
+
+                        <div class="row d-flex flex-row col-md-5 mb-3 mx-auto">
+                            <h:link outcome="friend-profile?user=#{friend}" styleClass="col-md-6 h5 d-inline-block text-center"
+                                    value="#{friend}"/>
+                            <h:commandLink value="Unfriend"
+                                           styleClass="col-md-3 text-center btn btn-danger d-inline-block"
+                                           action="#{removeFriendBean.removeFriend(friend)}"/>
+                        </div>
+                    </c:forEach>
+                </h:form>
+            </div>
+        </div>
+    </ui:define>
+</ui:composition>
+</html>

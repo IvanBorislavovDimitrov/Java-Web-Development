@@ -1,9 +1,0 @@
-app\entitities\Cat.class
-app\processors\FileContentProcessor.class
-app\servlets\CatCreateServlet.class
-app\servlets\CatProfileServlet.class
-app\entitities\Cat$Builder.class
-app\servlets\HomeServlet.class
-app\servlets\AllCatsServlet.class
-app\servlets\StyleCssServlet.class
-app\processors\FileContentProcessorImpl.class

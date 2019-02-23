@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+
+<h:head>
+    <h:outputStylesheet library="styles" name="style.css"/>
+    <h:outputStylesheet library="styles" name="bootstrap.min.css"/>
+    <h:outputStylesheet library="styles" name="reset-css.css"/>
+</h:head>
+<body>
+<header>
+    <ui:include src="navbar.xhtml"/>
+</header>
+<main>
+    <ui:insert name="content"/>
+</main>
+<footer class="footer py-3">
+    <div class="container-fluid">
+        <div class="text-muted container-fluid text-center">&copy; CopyRight Sanity Web Design Studios 2019. All
+            rights reserved.
+        </div>
+    </div>
+</footer>
+</body>
+</html>

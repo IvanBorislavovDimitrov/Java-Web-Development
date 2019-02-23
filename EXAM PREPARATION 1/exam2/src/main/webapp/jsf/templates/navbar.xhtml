@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-casebook">
+    <a class="navbar-brand text-muted h4" href="/">Casebook</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <c:choose>
+        <c:when test="#{session.getAttribute('logged_user') == null}">
+            <div class="collapse navbar-collapse d-flex justify-content-end">
+                <ul class="navbar-nav row">
+                    <li class="nav-item col-md-4">
+                        <h:link outcome="index" styleClass="nav-link text-muted active h5" value="Home"/>
+                    </li>
+                    <li class="nav-item col-md-4">
+                        <h:link outcome="login" styleClass="nav-link text-muted active h5" value="Login"/>
+                    </li>
+                    <li class="nav-item col-md-4">
+                        <h:link outcome="register" styleClass="nav-link text-muted active h5" value="Register"/>
+                    </li>
+                </ul>
+            </div>
+        </c:when>
+
+        <c:otherwise>
+            <div class="collapse navbar-collapse d-flex justify-content-end">
+                <ul class="navbar-nav row w-25">
+                    <li class="nav-item col-md-4">
+                        <h:link outcome="home" styleClass="nav-link text-info active h5" value="Home"/>
+                    </li>
+                    <li class="nav-item col-md-4">
+                        <h:link outcome="friends" styleClass="nav-link text-info active h5" value="Friends"/>
+                    </li>
+                    <li class="nav-item col-md-4">
+                        <h:form>
+                            <h:commandLink value="Logout" styleClass="nav-link text-info active h5"
+                                           action="#{userLoginBean.logout()}"/>
+                        </h:form>
+                    </li>
+                </ul>
+            </div>
+        </c:otherwise>
+    </c:choose>
+</nav>
+</html>

@@ -31,6 +31,7 @@ public class PackagesBean {
     private final ModelMapper modelMapper;
     private final UserService userService;
     private final ReceiptService receiptService;
+
     private PackageCreateViewModel packageCreateViewModel;
 
     @Inject

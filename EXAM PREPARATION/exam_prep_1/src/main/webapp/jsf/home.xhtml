@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="templates/base-layout.xhtml">
+    <ui:define name="content">
+        <div>
+            <hr class="my-3"/>
+            <div class="text-center mb-3">
+                <h4 class="text-info">Welcome, #{session.getAttribute('logged_user')}</h4>
+            </div>
+            <hr class="my-3"/>
+            <div class="container">
+                <c:set var="cnt" value="1"/>
+                <c:if test="#{cnt %  4 != 0}">
+                    <h:outputText escape="false"
+                                  value="&lt;div class=&quot;row mb-4 d-flex justify-content-around&quot;&gt;"/>
+                </c:if>
+                <c:forEach var="jobApplication" items="#{jobApplicationCreateBean.allJobApplications()}">
+                    <c:if test="#{cnt % 4 == 0}">
+                        <h:outputText escape="false" value="&lt;/div&gt;"/>
+                        <h:outputText escape="false"
+                                      value="&lt;div class=&quot;row mb-4 d-flex justify-content-around&quot;&gt;"/>
+                        <c:set var="cnt" value="#{cnt + 1}"/>
+                    </c:if>
+                    <div class="col-md-3 d-flex flex-column text-center">
+                        <h:graphicImage
+                                value="/resources/images/#{jobApplication.sector.toString().toLowerCase()}.jpg"
+                                class="img-thumbnail" width="300"
+                                height="300"/>
+                        <h5 class="text-center">#{jobApplication.profession}</h5>
+                        <h:link outcome="job-details?id=#{jobApplication.id}" styleClass="btn btn-info" value="Details"/>
+                        <h:link outcome="job-delete?id=#{jobApplication.id}" styleClass="btn btn-danger" value="Delete"/>
+                    </div>
+                    <c:set var="cnt" value="#{cnt + 1}"/>
+                </c:forEach>
+                <h:outputText escape="false" value="&lt;/div&gt;"/>
+            </div>
+            <hr class="my-3"/>
+        </div>
+    </ui:define>
+</ui:composition>
+</html>
