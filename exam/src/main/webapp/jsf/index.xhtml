@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<ui:composition template="templates/base-layout.xhtml">
+    <ui:define name="content">
+
+        <div class="mt-3">
+            <hr class="bg-exodia hr-2"/>
+            <div class="jumbotron mt-3 bg-exodia">
+                <h1 class="text-white">Welcome to EXODIA Xerox Information.</h1>
+                <hr class="bg-white hr-2"/>
+                <h3 class="text-white"><h:link outcome="login" value="Login"/> if you have an account.</h3>
+                <h3 class="text-white"><h:link outcome="register" value="Register"/> if you don't.</h3>
+            </div>
+            <hr class="bg-exodia hr-2 mt-5"/>
+        </div>
+    </ui:define>
+</ui:composition>
+</html>

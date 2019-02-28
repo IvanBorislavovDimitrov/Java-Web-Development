@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+
+<ui:composition template="templates/base-layout.xhtml">
+    <ui:define name="content">
+        <div class="mt-3">
+            <hr class="bg-exodia hr-2 mt-5"/>
+            <div class="caption-holder d-flex justify-content-between pt-1">
+                <h5 class="text-left text-muted">Details</h5>
+                <h5 class="text-right text-muted">Document - #{detailsScheduleBean.scheduleViewModel.id}</h5>
+            </div>
+            <div class="mx-auto w-75">
+                <h1 class="text-center text-exodia">#{detailsScheduleBean.scheduleViewModel.title}</h1>
+                <hr class="bg-exodia hr-2 wrap-text"/>
+                <p class="text-justify wrap-text">#{detailsScheduleBean.scheduleViewModel.content}</p>
+            </div>
+            <hr class="bg-exodia hr-2 mt-5"/>
+        </div>
+    </ui:define>
+</ui:composition>
+
+</html>

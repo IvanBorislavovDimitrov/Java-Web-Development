@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+
+<ui:composition template="templates/base-layout.xhtml">
+    <ui:define name="content">
+        <div class="mt-3">
+            <hr class="bg-exodia hr-2"/>
+            <h1 class="text-center text-exodia">Document - #{detailsScheduleBean.scheduleViewModel.id}</h1>
+            <hr class="bg-exodia hr-2 w-75"/>
+            <h:form class="mx-auto w-75">
+                <div class="form-group">
+                    <div class="label-center d-flex justify-content-center">
+                        <h:outputLabel value="Title" for="title" styleClass="ext-exodia h3"/>
+                    </div>
+                    <h:inputText styleClass="form-control" readonly="true" id="title" a:placeholder="Title..."
+                                 value="#{detailsScheduleBean.scheduleViewModel.title}"/>
+                </div>
+                <div class="form-group">
+                    <div class="label-center d-flex justify-content-center">
+                        <h:outputLabel value="Content" for="content" styleClass="ext-exodia h3"/>
+                    </div>
+                    <h:inputTextarea styleClass="form-control" readonly="true" id="content" rows="10"
+                                     a:placeholder="Content..."
+                                     value="#{detailsScheduleBean.scheduleViewModel.content}"/>
+                </div>
+                <input type="hidden" name="id" value="#{detailsScheduleBean.scheduleViewModel.id}"/>
+                <input type="hidden" name="content" value="#{detailsScheduleBean.scheduleViewModel.content}"/>
+                <input type="hidden" name="title" value="#{detailsScheduleBean.scheduleViewModel.title}"/>
+                <hr class="bg-exodia hr-2"/>
+                <div class="button-holder d-flex justify-content-center">
+                    <h:commandButton styleClass="btn bg-exodia text-white" value="Print"
+                                     action="#{printScheduleBean.print()}"/>
+                    <h:commandButton styleClass="btn bg-exodia text-white" value="Download PDF"
+                                     action="#{printScheduleBean.downloadPdf()}"/>
+                </div>
+            </h:form>
+            <hr class="bg-exodia hr-2 mt-5"/>
+        </div>
+    </ui:define>
+</ui:composition>
+
+</html>

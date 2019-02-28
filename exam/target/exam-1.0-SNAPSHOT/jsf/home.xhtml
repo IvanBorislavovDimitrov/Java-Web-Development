@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="templates/base-layout.xhtml">
+    <ui:define name="content">
+        <div class="mt-3">
+            <hr class="bg-exodia hr-2"/>
+
+            <div class="print-container container-fluid">
+
+                <c:set var="cnt" value="1"/>
+                <c:set var="totalCnt" value="1"/>
+                <c:set var="allSchedules" value="0"/>
+                <c:if test="#{cnt % 6 != 0}">
+                    <h:outputText escape="false"
+                                  value="&lt;div class=&quot;row mb-4 d-flex justify-content-between&quot;&gt;"/>
+                </c:if>
+
+                <c:forEach var="schedule" items="#{allSchedulesBean.allSchedules()}">
+
+                    <c:if test="#{cnt % 6 == 0}">
+                        <h:outputText escape="false" value="&lt;/div&gt;"/>
+                        <h:outputText escape="false"
+                                      value="&lt;div class=&quot;row mb-4 d-flex justify-content-between&quot;&gt;"/>
+                        <c:set var="cnt" value="#{cnt + 1}"/>
+                        <c:set var="totalCnt" value="#{totalCnt + 1}"/>
+                    </c:if>
+
+                    <div class="print-scheduled col-md-2 bg-exodia rounded">
+                        <h5 class="text-center text-white font-weight-bold py-3 mt-3">#{schedule.title}</h5>
+                        <hr class="bg-white"/>
+                        <div class="buttons-holder w-75 mx-auto d-flex justify-content-between">
+                            <h:link outcome="print-schedule?id=#{schedule.id}" value="Print"
+                                    styleClass="btn bg-exodia text-white font-weight-bold mb-3"/>
+
+                            <h:link outcome="details-schedule?id=#{schedule.id}" value="Details"
+                                    styleClass="btn bg-exodia text-white font-weight-bold mb-3"/>
+                        </div>
+                    </div>
+                    <c:set var="cnt" value="#{cnt + 1}"/>
+                    <c:set var="allSchedules" value="#{allSchedules + 1}"/>
+                </c:forEach>
+
+                <c:set var="totalCnt" value="#{totalCnt * 5}"/>
+
+                <c:set var="loops" value="#{totalCnt - allSchedules}"/>
+
+                <c:forEach var="i" items="#{allSchedulesBean.loop(loops)}">
+                    <div class="print-scheduled col-md-2 bg-white rounded"></div>
+                </c:forEach>
+
+                <h:outputText escape="false" value="&lt;/div&gt;"/>
+            </div>
+            <hr class="bg-exodia hr-2 mt-5"/>
+        </div>
+    </ui:define>
+</ui:composition>
+</html>
